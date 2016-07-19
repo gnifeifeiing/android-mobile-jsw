@@ -38,16 +38,6 @@ public class Constants {
      */
 //    public static  String SERVER_ADDRESS = "http://114.110.8.114/api-mobile/api/";
     public static String SERVER_ADDRESS = "http://192.168.1.252:9401/api-mobile/api/";
-
-    /**
-     * 健康资讯请求的服务器地址
-     */
-//    public static final String NEWS_SERVER_ADDRESS = "http://114.110.8.114/api-mobile/consult/mobile/";
-    public static final String NEWS_SERVER_ADDRESS = "http://192.168.1.252:9401/api-mobile/consult/mobile/";
-    /**
-     * 网络请求失败监听
-     */
-    public static final String XZQH_CODE = "xzqh_code";
     /**
      * webview加载超时时间设置
      */
