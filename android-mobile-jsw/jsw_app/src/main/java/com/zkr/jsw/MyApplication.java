@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.app.Application;
 import android.util.Log;
 
+import com.android.volley.RequestQueue;
+import com.android.volley.toolbox.Volley;
 import com.zkr.jsw.utils.Constants;
 import com.zkr.jsw.utils.OptsharepreInterface;
 import com.zkr.jsw.utils.UncaughtException;
@@ -24,12 +26,14 @@ public class MyApplication extends Application {
     public static String token ;
     private static Stack<Activity> activityStack;
     private static MyApplication singleton;
+    private static RequestQueue singleQueue;
     private OptsharepreInterface share;
 
     @Override
     public void onCreate() {
         super.onCreate();
         singleton = this;
+        singleQueue= Volley.newRequestQueue(this);
         //读取配置信息 确认是否已登陆
         share=new OptsharepreInterface(getApplicationContext());
         String flag=share.getPres("loginFlag");
@@ -101,8 +105,11 @@ public class MyApplication extends Application {
 //    }
 
     public static MyApplication getInstance() {
-
         return singleton;
+    }
+
+    public static RequestQueue getSingleQueue() {
+        return singleQueue;
     }
 
     /**
