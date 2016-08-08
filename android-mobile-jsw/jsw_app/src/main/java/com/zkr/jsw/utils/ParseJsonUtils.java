@@ -1,8 +1,6 @@
 package com.zkr.jsw.utils;
 
 import android.content.Context;
-import android.content.Intent;
-import android.text.TextUtils;
 import android.widget.Toast;
 
 import java.util.Map;
@@ -15,14 +13,13 @@ import java.util.Map;
  * @Copyright: -----------中科软
  */
 public class ParseJsonUtils {
-
+    static Map<String, Object> obj;
     /**
      * @Description: -------格式化服务器返回的头部数据
      * @author --------------LF
      * @date ----------------2016/7/26 10:21
      */
     public static String getParseData(Context context,String json){
-        Map<String, Object> obj;
         try {
             obj = JsonUtils.getMapObj(json);
             if (obj.get("success").toString().equals("0")) {
