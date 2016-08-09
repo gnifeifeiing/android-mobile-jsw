@@ -1,1 +1,1 @@
-include ':jsw_app', ':PullToRefreshLibrary'
+include ':WjwApp', ':PullToRefreshLibrary'

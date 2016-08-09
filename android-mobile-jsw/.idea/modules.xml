@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PullToRefreshLibrary/PullToRefreshLibrary.iml" filepath="$PROJECT_DIR$/PullToRefreshLibrary/PullToRefreshLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WjwApp/WjwApp.iml" filepath="$PROJECT_DIR$/WjwApp/WjwApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/android-mobile-jsw.iml" filepath="$PROJECT_DIR$/android-mobile-jsw.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jsw_app/jsw_app.iml" filepath="$PROJECT_DIR$/jsw_app/jsw_app.iml" />
     </modules>
   </component>
 </project>

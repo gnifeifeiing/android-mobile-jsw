@@ -10,14 +10,14 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/PullToRefreshLibrary" />
-            <option value="$PROJECT_DIR$/jsw_app" />
+            <option value="$PROJECT_DIR$/WjwApp" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/PullToRefreshLibrary" />
-            <option value="$PROJECT_DIR$/jsw_app" />
+            <option value="$PROJECT_DIR$/WjwApp" />
           </set>
         </option>
       </GradleProjectSettings>
